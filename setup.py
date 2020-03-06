@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.adoc") as f:
+with open("README.md") as f:
     long_description = f.read()
 
 setuptools.setup(
@@ -9,6 +9,7 @@ setuptools.setup(
     author="Harshad Srinivasan",
     author_email="harshad1@zoho.com",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     description="A project for learning ML and python",
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
